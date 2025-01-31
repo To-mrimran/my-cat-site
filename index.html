@@ -15,11 +15,11 @@
 
     <style>
       .sora {
-        font-family: "Sora", serif;
+        font-family: 'Sora', serif;
       }
 
       .adlam-display {
-        font-family: "ADLaM Display", serif;
+        font-family: 'ADLaM Display', serif;
       }
     </style>
     <!-- taiwind css cdn -->
@@ -31,19 +31,80 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              clifford: '#da373d',
             },
           },
         },
       };
     </script>
+
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/c07b78d651.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
-    <header>
-      <!-- Navbar start Here -->
-      <!-- banner start here -->
-    </header>
-    <main></main>
-    <footer></footer>
+    
+    <main class="max-w-screen-xl mx-auto px-8">
+      <header class="pt-8 mb-20 bg-gray-50">
+      
+        <!-- Navbar start Here -->
+        <div
+          class="flex justify-between items-center"
+        >
+          <!-- left side logo link -->
+          <div class="flex items-center gap-x-4">
+            <img class="w-auto" src="./c1-assets/logo-header.png" alt="" />
+            <a class="hidden sm:block text-gray-900 font-semibold" href=""
+              >Browse4Pets</a
+            >
+          </div>
+  
+          <!-- middle link -->
+  
+          <div class="hidden lg:flex gap-x-8">
+            <a class="text-gray-900" href="">Find a pet</a
+            ><a class="text-gray-900" href="">Breeds</a
+            ><a class="text-gray-900" href="">Contact us</a>
+          </div>
+  
+          <!-- Right side icons & buttons -->
+          <div class="flex items-center gap-x-4">
+            <button class="hidden sm:block text-gray-500 focus: outline-none">
+              <i class="fa-regular fa-bell"></i>
+            </button>
+  
+            <button class="hidden sm:block text-gray-500 focus: outline-none">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+  
+            <button
+              class="hidden sm:block py-2 px-4 border-2 border-yellow-500 text-black rounded-md"
+            >
+              Login
+            </button>
+  
+            <button
+              class="hidden sm:block py-2 px-4 bg-yellow-500 text-black rounded-md rounded-md"
+            >
+              Register
+            </button>
+  
+            <button class="lg:hidden text-gray-500">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <!-- banner start here -->
+         <div>
+
+         </div>
+      </header>
+    </main>
+    <footer>
+
+    </footer>
   </body>
 </html>
